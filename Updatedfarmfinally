@@ -1,0 +1,25 @@
+local WhitelistedPlayers = {
+    "AHHS3FTXY",
+    "ZenoisGone",
+    "erronnamo13",
+    "rip_kolva",
+    "manoeusouojosuares",
+    "pokemongirl1213",
+    "deathiscoming1234000",
+    "REAL999WRLD",
+    "OmarAa557",
+    "unsettlingKnitter",
+    "JaponGercek",
+    "unevenDifference",
+    "StacySanders9",
+    "imnothaingg",
+    "ZiroSlyth",
+    "bayandshi",
+    "NotthingHnanw21ddzxx"
+}
+
+local player = game.Players.LocalPlayer
+if table.find(WhitelistedPlayers, player.Name) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/HWIDSlapFarmHolder/refs/heads/main/ScriptHolder"))()
+else
+   
